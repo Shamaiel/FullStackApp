@@ -1,0 +1,52 @@
+Authorisation
+- Role Based Access control
+    1. Have/Add role in the Schema
+    2. Based on the role, give the access - Authorisation middleware
+
+- What about Admin?
+
+        1. When organisation is very small 
+                    - the tech manually gives the role:admin to people required
+        
+        2. When organisation is very big to do manually for each and everyone
+                - Tree structure is followed
+                - 
+
+
+MERN stack application
+
+Backend or Frontend
+
+- If you are a one person working - Start with Backend
+- If you are working in a team - 
+            2 people - 1 is BE dev, 1 is FE dev
+
+            API contract/documentation
+
+            POST /signup payload should be {x:string, y:number}
+
+
+
+ - MERN CRUD application
+ - Multi User Todo App
+
+
+POST /signup - email, password, name, city -  done 
+POST /login - email, password - done
+
+GET /tasks - done
+POST /tasks/add
+PUT /tasks/:taskID
+DELETE /tasks/:taskID
+
+
+Relationship concept
+users collection
+tasks collection 
+
+Independent/Parent - user
+Dependent/Child - task
+
+We'll always put Parent's ID in the child 
+user ID in the task
+
